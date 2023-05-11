@@ -1,0 +1,166 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(36, 17, 6);
+  }
+
+  .container {
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(36, 17, 6);
+	/* 三大布局方式之一:弹性盒布局 */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+
+.title,
+.q-img,
+.an-box,
+.btn {
+	width: 100%;
+	text-align: center;
+
+}
+
+.title {
+	height: 80px;
+	line-height: 80px;
+}
+
+.q-img {
+	height: 400px;
+	padding: 20px 0;
+}
+
+.an-box {
+	height: 150px;
+}
+
+.btn {
+	height: 100px;
+	line-height: 100px;
+
+}
+
+.btn button {
+	color: black;
+}
+
+
+h1{
+    font-size: 30px;
+    color: aliceblue;
+    font-family:papyrus;
+}
+
+.question{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-family:papyrus;	
+    
+}
+
+.selection{
+  text-align: center;
+  font-size: 22px;
+  font-family:papyrus;	
+  color: aliceblue;
+  border:none;
+}
+.selection1{
+    text-align: center;
+    font-size: 22px;
+    font-family:papyrus;	
+    color: aliceblue;
+    border:none;
+}
+fieldset{
+    border:none;
+}
+
+.button-block{
+    justify-content: center;
+}
+   
+.start-button {
+   
+       
+    width: 200px;
+    height:50px;
+    border: 10px;
+    border-radius: 10px;
+    font-family: papyrus;
+    font-size: 20px;
+       
+}
+   .button2-block{
+   
+    width: 60%;
+    top: 0%;
+
+    
+    display: flex;
+    justify-content: center;
+   }
+   .back-button {
+    
+
+    width: 100%;
+    margin-top: 80%;
+
+    
+    display: flex;
+    justify-content: center;
+
+    width: 200px;
+    height:50px;
+
+    border: 10px;
+    border-radius: 10px;
+    font-family: papyrus;
+    font-size: 20px;
+    
+    
+}
+
+.button-select {
+ 
+    width: 60%;
+    top: 0%;
+
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+#tarot1{
+  
+    text-align: center;
+   
+    
+}
+
+.an-show{
+    width: 50%;
+    min-width: 700px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    text-align:center;
+    border-radius: 20px;
+    margin:200px auto;
+    font-family: papyrus;
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 

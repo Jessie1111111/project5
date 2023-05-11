@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE-edge">
+    <meta name=""viewwport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+  <div id="canvas-wrapper"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+      
+  <div class="container">
+  
+    <div class="title">
+      <p class="question">How do you feel about number 8?</p>
+    </div>
+
+ 
+
+    <div class="an-box">
+      <div class="selection1">
+        <fieldset >
+          I believe he represents balance.<input type ="radio" name= "myRadios" class="radio" value="A"><br>
+          I believe he represents infinity and cycles.<input type ="radio" name= "myRadios" class="radio" value="B"><br>
+          I don't have any feelings towards him. <input type ="radio" name= "myRadios" class="radio" value="C"><br>
+        </fieldset>
+      </div>
+    </div>
+    
+    <div class="btn">
+      <div class="button-block" id="next">
+        <button class="start-button" onclick="goToPage4()">Next</button>
+      </div>
+    </div>
+
+
+  </div>
+
+  
+
+  
+
+ 
+
+
+  
+    <div>
+      <script>
+        function goToPage4() {
+          window.location.href = "page4.html";
+        }
+      </script>
+      <script src="main.js"></script>
+      <script src='main2.js'></script>
+    </div>
+  </div>
+</body>
+</html>
